@@ -3,11 +3,11 @@ body{
     background-position: 0% 25%;
     background-repeat: no-repeat;
 }
-.heroine{
+.heroine, .villains{
     padding: 30px;
 }
 
-.hero{
+.characters{
     position: relative;
     display: inline-block;
     height: 130px;
@@ -31,4 +31,13 @@ body{
     float: left;
     text-align: center;
     margin-top: 80%;
+}
+
+.char-name{
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
 }
