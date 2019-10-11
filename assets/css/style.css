@@ -2,5 +2,33 @@ body{
     background-size: cover;
     background-position: 0% 25%;
     background-repeat: no-repeat;
+}
+.heroine{
+    padding: 30px;
+}
 
+.hero{
+    position: relative;
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: turquoise;
+    margin-right: 30px;;
+}
+.hero-card{
+    height: 130px;
+    width: 130px;
+    float: left;
+}
+
+.hp{
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    background-color: rgba(240, 255, 255, 0.671);
+    float: left;
+    text-align: center;
+    margin-top: 80%;
 }
