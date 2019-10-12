@@ -44,8 +44,10 @@ body{
 }
 
 .fightBox{
-    height: 130;
-    margin-right: 50px;
+    height: 130px;
+    float: left;
+    margin-left: 50%;
+    margin-bottom: 20px;
 }
 
 .heros, .villains-text{
